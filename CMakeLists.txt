@@ -25,7 +25,7 @@ set(COMPONENT_ADD_INCLUDEDIRS
     "src"
 )
 
-register_component(
+idf_component_register(
     SRCS "src/AsyncTCP.cpp"
     INCLUDE_DIRS "src"
     PRIV_REQUIRES ${ASYNC_TCP_PRIV_REQUIRES}
